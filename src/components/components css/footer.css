@@ -1,0 +1,39 @@
+.footer{
+    color: white;
+    background-color: rgb(29, 32, 48);
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+.fcomp{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    font-weight: 200;
+}
+.fcomp3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:700px) {
+    .footer {
+        color: white;
+        background-color: rgb(29, 32, 48);
+        display: flex;
+        /* justify-content: space-evenly; */
+        padding-top: 5vh;
+        padding-bottom: 15vh;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        }
+    .fcomp {
+        display: flex;
+        flex-direction: column;
+        gap: .5vh;
+        font-weight: 200;
+    }
+}

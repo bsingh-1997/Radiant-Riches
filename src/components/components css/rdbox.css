@@ -1,0 +1,99 @@
+
+.component2{
+    /* background-color:rgb(236, 236, 236) ; */
+    background-color:white;
+    width: 22.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-bottom: 2vh;
+    border-radius: 7px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.pbar{
+    gap: 2vw;
+    display: flex;
+    height: 5vh;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+}
+.discount{
+    font-size: small;
+    align-items: end;
+    display: flex;
+    color: rgba(131, 131, 131, 0.774);
+    gap: 1vw;
+}
+.button2{
+    display: flex;
+    color: white;
+    background-color: #1877F2;
+    width: 99%;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+.tags{
+    background-color: rgb(214, 214, 214);
+    border-radius: 3px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: blue;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+.tagsbox{
+    display: flex;
+    gap: 1vw;
+    /* align-items: baseline !important; */
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.title1{
+    font-size: large;
+    font-weight: 600;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.red{
+    color: red;
+}
+.img2{
+    width: 80%;
+}
+@media only screen and (max-width:700px) {
+    .relateddeals {
+        font-size: 2em;
+        font-weight: 300;
+        margin-bottom: 2vh;
+    }
+    .rdcont {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .component2{
+        /* background-color: rgb(236, 236, 236); */
+        background-color: white;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2vh;
+        border-radius: 7px;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+   
+}
