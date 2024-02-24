@@ -115,7 +115,7 @@
 .review{
     background-color: rgb(236, 236, 236);
     width: 90%;
-    height: 23vh;
+    height: 24vh;
     border-radius: 0px 0px 10px 10px;
     justify-content: center;
     display: flex;
@@ -123,6 +123,7 @@
     align-items: center;
     gap: 2vh;
     overflow: hidden;
+    padding-bottom: 2vh;
     /* transform: translate(0 -1vh); */
 }
 .r1{
